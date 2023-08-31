@@ -11,23 +11,18 @@
             string message = "";
 
             if (userValue == "1")
-            {
                 message = "You won a new car!";
-            }
 
             else if (userValue == "2")
-            {
                 message = "You won a new boat!";
-            }
 
             else if (userValue =="3")
-            {
                 message = "You won a new cat!";
-            }
 
             else
             {
-                message = "Sorry we didn´t understand.";
+                message = "Sorry, we didn´t understand. ";
+                message = message + "You lose.";
             }
 
             Console.WriteLine(message);
