@@ -22,7 +22,8 @@
             else
             {
                 message = "Sorry, we didn´t understand. ";
-                message = message + "You lose.";
+                //message = message + "You lose.";
+                message += "You lose.";
             }
 
             Console.WriteLine(message);
