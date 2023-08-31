@@ -41,7 +41,8 @@
             //Console.Write(message);
             //Console.Write(".");
 
-            Console.WriteLine("You won a {0}.", message);
+            //Console.WriteLine("You won a {0}.", message);
+            Console.WriteLine("You entered: {0}, therefore you won a {1}.", userValue, message);
 
             Console.ReadLine();
         }
